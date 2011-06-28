@@ -37,4 +37,21 @@ Second-level heading
 ***
 
 
+dropship - Dropbox API utilities
+============================================================
+
+These utilities make use of the deduplication scheme of Dropbox__
+to allow for "teleporting" files into your Dropbox account
+given only a list of hashes, provided of course that the files already exist
+on their servers. This enables arbitrary, anonymous transfers of files between 
+Dropbox accounts.
+
+__ http://www.dropbox.com
+
+This package includes:
+
+* ``dropship``: Inject a file into your account using a JSON 
+  description.
+* ``hash_blocks``: Produce a description from a file that can
+  be used with ``dropship``.
 
