@@ -1,57 +1,8 @@
 Kto's test project. Feel free to mess around.
 
-*emphasis* or _emphasis_ (more common) (e.g., italics)
+I get 10 times more traffic from [Google] [1] than from
+[Yahoo] [2] or [MSN] [3].
 
-**strong emphasis** (more common) or __strong emphasis__ (e.g., boldface)
-
-Some text with `some code` inside,
-
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-* An item in a bulleted (unordered) list
-    * A subitem, indented with 4 spaces
-* Another item in a bulleted list
-
-1. An item in an enumerated (ordered) list
-2. Another item in an enumerated list
-
-# First-level heading
-
-#### Fourth-level heading
-
-First-level heading
-===================
-
-Second-level heading
---------------------
-
-> This text will be enclosed in an HTML blockquote element.
-> Blockquote elements are reflowable. You may arbitrarily
-> wrap the text to your liking, and it will all be parsed
-> into a single blockquote element.
-
-[link to google](http://www.google.com "Gooooooogle")
-
-***
-
-
-dropship - Dropbox API utilities
-============================================================
-
-These utilities make use of the deduplication scheme of Dropbox__
-to allow for "teleporting" files into your Dropbox account
-given only a list of hashes, provided of course that the files already exist
-on their servers. This enables arbitrary, anonymous transfers of files between 
-Dropbox accounts.
-
-__ http://www.dropbox.com
-
-This package includes:
-
-* ``dropship``: Inject a file into your account using a JSON 
-  description.
-* ``hash_blocks``: Produce a description from a file that can
-  be used with ``dropship``.
-
+  [1]: http://google.com/        "Google"
+  [2]: http://search.yahoo.com/  "Yahoo Search"
+  [3]: http://search.msn.com/    "MSN Search"
