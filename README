@@ -1,1 +1,40 @@
 Kto's test project. Feel free to mess around.
+
+*emphasis* or _emphasis_ (more common) (e.g., italics)
+
+**strong emphasis** (more common) or __strong emphasis__ (e.g., boldface)
+
+Some text with `some code` inside,
+
+    line 1 of code
+    line 2 of code
+    line 3 of code
+
+* An item in a bulleted (unordered) list
+    * A subitem, indented with 4 spaces
+* Another item in a bulleted list
+
+1. An item in an enumerated (ordered) list
+2. Another item in an enumerated list
+
+# First-level heading
+
+#### Fourth-level heading
+
+First-level heading
+===================
+
+Second-level heading
+--------------------
+
+> This text will be enclosed in an HTML blockquote element.
+> Blockquote elements are reflowable. You may arbitrarily
+> wrap the text to your liking, and it will all be parsed
+> into a single blockquote element.
+
+[link to google](http://www.google.com "Gooooooogle")
+
+***
+
+
+
